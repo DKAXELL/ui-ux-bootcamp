@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://img.icons8.com/color/48/000000/web-design.png">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <title>UI/UX Bootcamp</title>
+</head>
+<body>
+  <!--NavBar area-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+     <div class="container">
+      <a href="#" class="navbar-brand fw-bold"><span class="text-primary">UI/UX </span>Bootcamp</a>
+     
+      <button class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navmenu">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#learn" class="nav-link">What You'll Learn</a>
+          </li>
+          <li class="nav-item">
+            <a href="#questions" class="nav-link">Questions</a>
+          </li>
+          <li class="nav-item">
+            <a href="#instructors" class="nav-link">Instructors</a>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <!--NavBar area end-->
+
+    <!--Showcase-->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning">UI/UX Designer</span></h1>
+            <p class="lead my-4">
+              We teach entire UI/UX principles and core knowledge. Learn how to make creative mockup designs for any web-apps & mobile apps.</p>
+             <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target='#enroll'>Enroll Now</button>
+          </div>
+          <img class="img-fluid w-50 h-30 d-none d-sm-block" src="img/3d man with lap.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!--NewsLetter-->
+
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="md-3 md-md-0">Sign Up For Newsletter</h3>
+
+          <div class="input-group news-input">
+            <input type="email" class="form-control" placeholder="Your email" aria-label="Email" aria-describedby="button-addon2">
+            <button class="btn btn-dark btn-lg" type="button">Sign up</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Virtual</h3>
+                <p class="card-text">
+                  Learn complete modules from your comfort zone, Also we give answers to your doubts 24/7. So you can feel comfortable with what you learn!
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">One on One</h3>
+                <p class="card-text">
+                  You'll get access to One-on-One session with top industry leading specialist. You'll get full mentorship with this bootcamp until you get a job.
+                </p>
+                <a href="#" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Great Community</h3>
+                <p class="card-text">
+                 You'll have a access to our premium Facebook & telegram group. You make connections with world class designers & developers.
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Text area for fundamentals-->
+    
+    <section id="learn" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+        <div class="col-md">
+          <img src="img/3d multi device.png" class="img-fluid" alt="">
+        </div>
+        <div class="col-md py-5">
+          <h2>Learn from fundamentals</h2>
+          <p class="lead">
+            We teach you every thing from scratch. Learn how to design full stack application from scratch also you'll get a chance to work on real world projects. So that you can easily develop your skills faster.
+          </p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i>Read More
+          </a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+        <div class="col-md py-5">
+          <h2>Learn Adobe XD & Figma</h2>
+          <p class="lead">We teach industry most adopted tools & software. Learn how to create  amazing designs with adobe XD & Figma. Also you can learn routing on adobe XD & Figma to create full working mockups</p>
+          <p>Learn by doing amazing real world projects with top industry leading companies.</p>
+          <a href="#" class="btn btn-light mt-3">
+            <i class="bi bi-chevron-right"></i>Read More
+          </a>
+        </div>
+        <div class="col-md">
+          <img src="img/girl and boy on puzzle.png" class="img-fluid" alt="">
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FAQ - Accordion-->
+
+    <section id="questions" class="py-5">
+      <div class="container">
+        <h2 class="text-center md-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                How long it will take to finish this bootcamp?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+              <div class="accordion-body">This is 3 months full-time bootcamp for absolute beginers. Also you will get 6 month extended mentorship</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                How much you charge for this bootcamp?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+              <div class="accordion-body">This is 3 months full-time bootcamp for absolute beginers. Also you will get 6 month extended mentorship</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                We have to pay for software license?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+              <div class="accordion-body">Yes! You have to pay for software license such as adobe XD & Figma. How ever you'll use those softwares for lifetime so it's your property</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Instructions-->
+
+    <section id="instructors" class="p-5 bg-primary">
+      <div class="container">
+        <h2 class="text-center text-white">Our instructors</h2>
+        <p class="lead text-center text-white">Meet our amazing team</p>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">John Doe</h3>
+                <p class="card-text">Full-stack web developer with 10 years of experience on creating UI designs for SaaS products.</p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">Kayal Margio</h3>
+                <p class="card-text">Lead UX designer at Axell Softs. Over 6 years experience on creation super flow mobile apps.</p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/women/17.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">Cristina Kune</h3>
+                <p class="card-text">IoS App UI designer & Graphic designer with 6+ years of experience who work on seemless designs.</p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img src="https://randomuser.me/api/portraits/men/71.jpg" class="rounded-circle mb-3" alt="">
+                <h3 class="card-title mb-3">Mike</h3>
+                <p class="card-text">Udemy course deveoper on UI/UX topics. Who can create amazing workflow for any website.</p>
+                <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!--Contact-->
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location</span> 54 Main st Bosten MA
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone</span> 9994767254
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Email</span> johncanadi@gmail.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Students Enrolled</span> 654
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!--Footer-->
+
+  <footer class="p-5 bg-dark text-white position-relative">
+    <div class="container">
+      <p class="lead text-center fw-bold">Copyright &copy; 2021 UI/UX Mastery Bootcamp</p>
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+    </div>
+  </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" role="dialog" aria-labelledby="enrollLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enrollLabel">Enrollment Form</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p class="lead">Fill out this form to enroll </p>
+          <form>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                First Name:
+              </label>
+              <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                Last Name:
+              </label>
+              <input type="text" class="form-control" id="last-name">
+            </div>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                Phone:
+              </label>
+              <input type="number" class="form-control" id="form-name">
+            </div>
+            <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                Email:
+              </label>
+              <input type="email" class="form-control" id="form-name">
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiYXhlbGxkayIsImEiOiJja3Z2MWQ2bjMxNnlwMndtOW1vOW84eXFvIn0.KWOXJkYIjLjkznWbmzpE_g';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v11',
+center: [-71.0958, 42.35725],
+zoom: 18,
+});
+    </script>
+
+  </body>
+</html>
